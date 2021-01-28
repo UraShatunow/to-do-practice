@@ -1,0 +1,25 @@
+.app {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    margin: 20px auto 0;
+    border: 1px solid gray;
+    box-shadow:  0 0 15px rgba(0,0,0,0.5)
+}
+
+.top-panel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 426px) {
+    .top-panel {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }

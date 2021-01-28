@@ -1,0 +1,10 @@
+.btn-item-status-filter {
+    border: 1px solid white;
+}
+
+@media screen and (max-width: 426px) {
+    .btn-group {
+        width: 100%;
+        margin: 15px 0;
+    }
+  }

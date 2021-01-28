@@ -1,0 +1,13 @@
+.search-panel {
+    margin: 0 10px 0 0;
+    padding: 5px 10px;
+    border-width: 0px;
+    outline: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 426px) {
+    .search-panel {
+        margin: 0;
+    }
+  }

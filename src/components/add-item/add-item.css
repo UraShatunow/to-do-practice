@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form button {
+   width: 20%;
+}
+
+.form .form-input {
+    display: block;
+    margin-right: 10px;
+    outline: none;
+    padding: 5px 10px;
+    width: 78%;
+}
+
+@media screen and (max-width: 426px) {
+    .form {
+        flex-direction: column;
+    }
+
+    .form button {
+        width: 40%;
+        margin-top: 16px;
+     }
+
+     .form .form-input {
+        width: 100%;
+    }
+}
